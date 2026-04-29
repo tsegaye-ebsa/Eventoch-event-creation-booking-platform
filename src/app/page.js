@@ -1,12 +1,17 @@
-import Image from "next/image";
-import Main from "@/componet/home";
-import Icon from "@/componet/icons"
 
+
+import Slider from "@/componet/slider";
+import MainII from "@/componet/home";
+import Merch from "@/componet/merch"
+import Icon  from "@/componet/icons";
 export default function Home() {
   return (
    <>
-   <Main />
-    <Icon/>
+  
+   <Slider/>
+   <Icon/>
+   <MainII/>
+   <Merch/>
    </>
   );
 }

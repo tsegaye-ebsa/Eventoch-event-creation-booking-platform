@@ -6,22 +6,18 @@ import {
     CarouselNext,
     CarouselPrevious,
   } from "@/components/ui/carousel"
+
 export default function Main() {
     return (
-    <div className="mt-5">  
-         <div className="flex justify-between items-end p-5  w-full   border-1 border-gray-200" >
-            <h1 className="text-2xl font-bold text-gray-800  font-serif">Discover events in cassino</h1>
+    <div>  
+         <div className="flex justify-between items-end p-2 w-full p-3" >
+            <h1 className="text-2xl font-bold text-gray-800  font-serif">Get your merch!</h1>
             <hr className=" border-1 border-gray-400 "/>
             <h1 className=" text-md font-bold text-gray-800  font-serif">Show more </h1>
          </div>
- <div className="flex space-x-4 p-2 w-full px-5 ">
-    <p>All</p>
-    <p>for you </p>
-    <p>Today</p>
-    <p>This Weekend</p>
- </div>
-       <Carousel className="w-full border-2 border-black-300  ">
-       <CarouselContent className="flex flex-row w-full  h-100  border-b-2  "> 
+
+       <Carousel className="w-full border-2 border-black-300 ">
+       <CarouselContent className="flex flex-row w-full  h-100  border-b-2  ">
         <div className="flex">
               <div className="w-80 h-full border-2"></div>
            
