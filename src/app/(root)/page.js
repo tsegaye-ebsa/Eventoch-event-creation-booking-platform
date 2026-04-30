@@ -4,6 +4,7 @@ import Slider from "@/componet/slider";
 import MainII from "@/componet/home";
 import Merch from "@/componet/merch"
 import Icon  from "@/componet/icons";
+import Do from "@/componet/what to do";
 export default function Home() {
   return (
    <>
@@ -11,7 +12,8 @@ export default function Home() {
    <Slider/>
    <Icon/>
    <MainII/>
-   <Merch/>
+  <Merch/>
+  <Do/>
    </>
   );
 }

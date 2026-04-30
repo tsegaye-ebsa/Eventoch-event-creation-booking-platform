@@ -10,7 +10,7 @@ import {
 export default function Main() {
     return (
     <div>  
-         <div className="flex justify-between items-end p-2 w-full p-3" >
+         <div className="flex justify-between items-end p-5 my-5 w-full   border-1 border-gray-200" >
             <h1 className="text-2xl font-bold text-gray-800  font-serif">Get your merch!</h1>
             <hr className=" border-1 border-gray-400 "/>
             <h1 className=" text-md font-bold text-gray-800  font-serif">Show more </h1>

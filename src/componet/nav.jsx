@@ -9,15 +9,17 @@ import {
   InputGroupAddon,
   InputGroupInput,
 } from "@/components/ui/input-group"
-import {   Heart, ItalicIcon, LocateIcon, LucideShoppingBasket, SearchIcon, ShoppingCart } from "lucide-react";
-import { Carter_One } from "next/font/google";
+import {   Heart, ItalicIcon,   SearchIcon, ShoppingCart } from "lucide-react";
+
 
 import Link from "next/link";
 export default function Nav() {
-    return (
+  
+  
+  return (
 
-    <>
-    <div className="flex px-5 p-2 items-center justify-between  border-b-1">
+    <div className="fixed z-50 w-full bg-white shadow-md">
+    <div className="flex  px-5 p-2 items-center justify-between  border-b-1">
         <div>
           <h1 className="text-orange-600 text-xl p-2 font-semibold font-serif">Eventዎች</h1>
         </div>
@@ -46,16 +48,16 @@ export default function Nav() {
     <div className="flex items-center space-x-8 ">
     <Link href="/create-event" className="   font-serif">Updates </Link>
     <Link href="/create-event"className="   font-serif">Events </Link>
-    <Link href="/create-event" className="  font-serif">Create Event </Link>
     <Link href="/create-event" className="  font-serif">Merch </Link>
+    <Link href="/create-event" className="  font-serif  "><p>Create Event</p> </Link>
     </div>
     <div className="flex items-center space-x-8">
     <ShoppingCart className="w-6 -h-6" />
     <Heart className="w-6 -h-6"/>
-    <button className="border-2 bg-orange-700 rounded-md py-2 px-5" > <Link href="/create-event"className="  font-serif">Sign Up Now  </Link></button>
+    <button className="border-2 bg-orange-500 text-white hover:bg-orange-600 transition-colors rounded-md py-2 px-5" > <Link href="/Signup"  className=" text-white font-serif">Sign up now  </Link></button>
     </div>
      
     </div>
-    </>
+    </div>
     )
 }
