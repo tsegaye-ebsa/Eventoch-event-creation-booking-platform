@@ -49,7 +49,7 @@ export default function Nav() {
     <Link href="/create-event" className="   font-serif">Updates </Link>
     <Link href="/create-event"className="   font-serif">Events </Link>
     <Link href="/create-event" className="  font-serif">Merch </Link>
-    <Link href="/create-event" className="  font-serif  "><p>Create Event</p> </Link>
+    <Link href="/Create" className="  font-serif  "><p>Create Event</p> </Link>
     </div>
     <div className="flex items-center space-x-8">
     <ShoppingCart className="w-6 -h-6" />
