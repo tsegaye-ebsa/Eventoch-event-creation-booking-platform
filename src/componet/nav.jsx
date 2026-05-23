@@ -21,7 +21,7 @@ export default function Nav() {
     <div className="fixed z-50 w-full bg-white shadow-md">
     <div className="flex  px-5 p-2 items-center justify-between  border-b-1">
         <div>
-          <h1 className="text-orange-600 text-xl p-2 font-semibold font-serif">Eventዎች</h1>
+         <img src="/save.jpg" alt="" className="w-14 h-10  object-cover " />
         </div>
      <div>
 <div>

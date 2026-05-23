@@ -1,6 +1,6 @@
 "use client";
-import { useActionState } from "react";
-import { submitEvent } from "@/app/action";
+
+import { submitEvent } from "../app/action";
 
 export default function CreateEvent() {
     return (
@@ -18,7 +18,7 @@ export default function CreateEvent() {
                         </div>
                         <div>
                             <label htmlFor="location" className="block text-sm font-medium text-gray-700">Event Location</label>
-                            <input type="text" id="location" name="location" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500" />
+                            <input type="text" id="location" name="description" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500" />
                         </div>
                         <button type="submit" className="w-full py-2 px-4 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition-colors">Create Event</button>
                     </form>

@@ -2,10 +2,12 @@
 
 import { Music, Palette, PartyPopper, Trophy, UtensilsCrossed } from 'lucide-react'; // Example icon
 
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 export default function IconCard() {
   return (
+    <ScrollArea className="w-96 rounded-md border whitespace-nowrap ">
     <div>
-    <div className='flex flex-row justify-around '>
+    <div className='flex  flex-row justify-around '>
     <div>
     <div className="flex flex-col items-center justify-center w-32 h-32 
                     bg-white/80 backdrop-blur-sm 
@@ -97,5 +99,9 @@ export default function IconCard() {
         <p>Party</p>
     </div>
   </div>
+  
+  <ScrollBar orientation="horizontal" />
+  </ScrollArea>
   );
 }
+
